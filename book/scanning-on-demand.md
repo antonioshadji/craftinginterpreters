@@ -651,7 +651,7 @@ In a DFA, you have a set of *states* with *transitions* between them, forming a
 graph. At any point in time, the machine is "in" exactly one state. It gets to
 other states by following transitions. When you use a DFA for lexical analysis,
 each transition is a character that gets matched from the string. Each state
-respresents a set of allowed characters.
+represents a set of allowed characters.
 
 Our keyword tree is exactly a DFA that recognizes Lox keywords. But DFAs are
 more powerful than simple trees because they can be arbitrary *graphs*.
